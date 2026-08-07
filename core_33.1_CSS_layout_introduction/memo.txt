@@ -1,0 +1,19 @@
+ref 1. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
+          CSS_layout/Introduction
+      In this article;
+        ・Normal layout flow
+        ・How are elements laid out by default?
+        ・Overriding normal flow
+        ・Summary
+
+
+2026-08-07, working
+folder: "core_33.1_CSS_layout_introduction"
+
+actions
+1. Preparations
+1.1 create folder "core_33.1_CSS_layout_introduction"
+2. edit
+2.1 edit index.html, style.css per ref 1.
+        ・Normal layout flow
+        

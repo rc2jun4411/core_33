@@ -1,0 +1,25 @@
+/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\core_33.1_CSS_layout_introduction\style.css */
+hr {
+    border: none;
+    height: 2px;
+    background-color: cyan;
+}
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* ex-1, */
+
+
+p {
+  background: rgb(255 84 104 / 30%);
+  border: 2px solid rgb(255 84 104);
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: white;
+  border: 1px solid black;
+}

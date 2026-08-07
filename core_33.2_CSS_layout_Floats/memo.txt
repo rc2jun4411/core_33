@@ -1,0 +1,18 @@
+ref 2. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
+                CSS_layout/Floats
+        In this article;
+        　・The background of floats
+        　・A float example
+        　・Clearing floats
+        　・Clearing boxes wrapped around a float
+        　・Summary
+
+2026-08-07, working
+folder: "core_33.2_CSS_layout_Floats"
+
+actions
+1. Preparations
+1.1 create folder "core_33.2_CSS_layout_Floats"
+2. edit
+2.1 edit index.html, style.css per ref 2.
+        

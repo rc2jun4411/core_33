@@ -1,0 +1,43 @@
+/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\
+　　　core_33.2_CSS_layout_Floats\style.css */
+hr {
+    border: none;
+    height: 2px;
+    background-color: cyan;
+}
+
+/* ex-2, Floats */
+body {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  font:
+    0.9em/1.2 "Helvetica",
+    "Arial",
+    sans-serif;
+}
+
+.box {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rgb(207 232 220);
+  padding: 1em;
+}
+
+.special {
+  background-color: rgb(148 255 172);
+  padding: 10px;
+  color: blue;
+}
+
+.wrapper {
+  background-color: rgb(148 255 172);
+  padding: 10px;
+  color: darkblue;
+  display: flow-root;
+}
