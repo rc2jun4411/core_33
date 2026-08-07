@@ -1,0 +1,31 @@
+ref 3. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
+        CSS_layout/Positioning
+      In this article;
+        ・Introducing positioning
+        ・Static positioning
+        ・Relative positioning
+        ・Absolute positioning
+        ・Fixed positioning
+        ・Sticky positioning
+        ・Summary  
+
+2026-08-07, working
+folder: "core_33.3.2_CSS_layout_Positioning z-index"
+
+actions
+1. Preparations
+1.1 create folder "core_33.3.2_CSS_layout_Positioning z-index"
+2. edit
+2.1 edit index.html, style.css per ref 3.
+    Introducing z-index        
+  =Notes=
+   When elements start to overlap, what determines 
+   which elements appear over others and which elements 
+   appear under others? In the example we've seen so far, 
+   we only have one positioned element in the positioning 
+   context, and it appears on the top since positioned 
+   elements win over non-positioned elements. What about 
+   when we have more than one?
+     Try, 
+   adding the following to your CSS to make the first paragraph 
+   absolutely positioned too:      

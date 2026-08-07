@@ -1,4 +1,4 @@
-/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\core_33.3_CSS_layout_Positioning\style.css */
+/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\core_33.3.1_CSS_layout_Positioning\style.css */
 hr {
     border: none;
     height: 2px;
@@ -43,7 +43,16 @@ span {
 .positioned_3 {
   position: absolute;
   background: pink;
-  top:  1010px;
+  top:  1040px;
   left: 20px;
 }
 
+/* ex-4.4 Positioning contexts */
+.positioned_4 {
+  position: relative;
+  background: lightgreen;
+  top:  -100px;
+  left:  20px;
+}
+
+/* ex-4.5 Introducing z-index */

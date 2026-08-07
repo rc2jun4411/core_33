@@ -1,0 +1,56 @@
+/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\core_33.3.2_CSS_layout_Positioning z-index\style.css */
+hr {
+    border: none;
+    height: 2px;
+    background-color: cyan;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  top:  30px;
+  left: 30px;
+}
+
+/* ex-4.5 z-index */
+p:nth-of-type(1) {
+  position: absolute;
+  background: lime;
+  top: 10px;
+  right: 30px;
+}
+
+z-index: 1;
+
+body {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+.positioned {
+  position: absolute;
+  background: yellow;
+  top: 30px;
+  left: 30px;
+}
+
+p:nth-of-type(1) {
+  position: absolute;
+  background: lime;
+  top: 10px;
+  right: 30px;
+  z-index: 1;
+}
