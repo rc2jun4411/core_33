@@ -6,3 +6,79 @@ hr {
 }
 
 /* ex-3.1, Floats 1 */
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 0.5em;
+}
+
+.float {
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1em;
+}
+.float_11 {
+  /* Add styles here */
+  float: left;
+}
+.float_12 {
+  /* Add styles here */
+  float: right;
+}
+
+/* ex-3.2, Floats 2 */
+
+.float21 {
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 1em;
+}
+.float21 {
+  /* Add styles here */
+    float: left;
+}
+.below21 {
+  /* Add styles here */
+    clear: left;
+}
+
+/* ex-3.3, Floats 3 */
+
+.float3 {
+  margin: 15px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(207 232 220);
+  padding: 1em;
+  color: white;
+}
+
+.box3 {
+  background-color: rebeccapurple;
+  padding: 10px;
+  color: white;
+}
+
+.float3 {
+  float: left;
+}
+
+.box3 {
+  /* Add styles here */
+    display: flow-root;
+}
