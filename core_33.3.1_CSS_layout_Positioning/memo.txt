@@ -19,5 +19,8 @@ actions
 2.1 edit index.html, style.css per ref 3.
         ・Static positioning        
         ・Relative positioning
-        ・Absolute positioning        
+        ・Absolute positioning       
+2.2 edit memo.txt to check VScode function to open folder remote GitHub. 
+        To commit and push.
+        
         
