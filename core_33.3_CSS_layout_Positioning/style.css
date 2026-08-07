@@ -1,0 +1,66 @@
+/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\core_33.3_CSS_layout_Positioning\style.css */
+hr {
+    border: none;
+    height: 2px;
+    background-color: cyan;
+}
+
+top: 30px;
+left: 30px;
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* ex-4.1 Static positioning */
+.positioned {
+  position: static;
+  background: yellow;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+/* ex-4.2 Relative positioning */
+.positioned_2 {
+  position: relative;
+  background: yellow;
+  top: 30px;
+  left: 30px;
+} 
+
+/* ex-4.3 Absolute positioning */
+position: absolute;
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: aqua;
+  border: 3px solid blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background: red;
+  border: 1px solid black;
+}
+
+.positioned_3 {
+  position: absolute;
+  background: pink;
+  top: 30px;
+  left: 30px;
+}

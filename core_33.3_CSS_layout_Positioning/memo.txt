@@ -1,0 +1,21 @@
+ref 3. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
+        CSS_layout/Positioning
+      In this article;
+        ・Introducing positioning
+        ・Static positioning
+        ・Relative positioning
+        ・Absolute positioning
+        ・Fixed positioning
+        ・Sticky positioning
+        ・Summary  
+
+2026-08-07, working
+folder: "core_33.3_CSS_layout_Positioning"
+
+actions
+1. Preparations
+1.1 create folder "core_33.3_CSS_layout_Positioning"
+2. edit
+2.1 edit index.html, style.css per ref 3.
+        ・Static positioning        
+        
