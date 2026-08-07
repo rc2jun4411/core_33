@@ -18,4 +18,6 @@ actions
 2. edit
 2.1 edit index.html, style.css per ref 3.
         ・Static positioning        
+        ・Relative positioning
+        ・Absolute positioning        
         
