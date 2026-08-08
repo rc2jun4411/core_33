@@ -1,0 +1,36 @@
+ref 3. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
+        CSS_layout/Positioning
+      In this article;
+        ・Introducing positioning
+        ・Static positioning
+        ・Relative positioning
+        ・Absolute positioning
+        ・Fixed positioning    <=
+        ・Sticky positioning
+        ・Summary  
+
+2026-08-07, working
+folder: "core_33.3.3_CSS_layout_Positioning Fixed positioning"
+
+actions
+1. Preparations
+1.1 create folder "core_33.3.3_CSS_layout_Positioning Fixed positioning"
+2. edit
+2.1 edit index.html, style.css per ref 3.
+  ・Fixed positioning
+=Notes=
+  Let's now look at fixed positioning. This works in exactly 
+the same way as absolute positioning, with one key difference: 
+whereas absolute positioning fixes an element in place relative 
+to its nearest positioned ancestor 
+(the initial containing block if there isn't one), fixed 
+positioning fixes an element in place relative to the visible 
+portion of the viewport. 
+  This means that you can create useful UI items that are fixed
+in place, like persistent navigation menus that are always 
+visible no matter how much the page scrolls.
+  Let's put together a simple example to show what we mean. 
+First of all, delete the existing p:nth-of-type(1) and
+  .positioned rules from your CSS. Now update the body rule to 
+remove the position: relative; declaration and 
+add a fixed height, like so:

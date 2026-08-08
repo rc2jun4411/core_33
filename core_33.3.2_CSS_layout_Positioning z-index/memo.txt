@@ -10,14 +10,14 @@ ref 3. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
         ・Summary  
 
 2026-08-07, working
-folder: "core_33.3.2_CSS_layout_Positioning z-index"
+folder: "core_33.3.3_CSS_layout_Positioning Fixed positioning"
 
 actions
 1. Preparations
-1.1 create folder "core_33.3.2_CSS_layout_Positioning z-index"
+1.1 create folder "core_33.3.3_CSS_layout_Positioning Fixed positioning"
 2. edit
 2.1 edit index.html, style.css per ref 3.
-    Introducing z-index        
+            ・Fixed positioning       
   =Notes 1=
    When elements start to overlap, what determines 
    which elements appear over others and which elements 

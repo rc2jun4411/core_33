@@ -1,0 +1,14 @@
+ref 4. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/
+        CSS_layout/Test_your_skills/Position
+      In this article;
+        ・Positioning 1
+        ・Positioning 2
+
+2026-08-08, working
+folder: "core_33.3.4_CSS_layout_Positioning_test"
+
+actions
+1. Preparations
+1.1 create folder "core_33.3.4_CSS_layout_Positioning_test"
+2. edit
+2.1 edit index.html, style.css per ref 4.

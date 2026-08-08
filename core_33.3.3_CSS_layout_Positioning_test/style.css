@@ -1,0 +1,81 @@
+/* C:\Users\rc2ju\Documents\MDN\3.Learn\core_33\core_33.3.3_CSS_layout_Positioning Fixed positioning\style.css */
+hr {
+    border: none;
+    height: 2px;
+    background-color: cyan;
+}
+
+/* ex-4.7, Positioning 1 */
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0.5em;
+  border: 5px solid #cccccc;
+}
+
+.target {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: #663398;
+  padding: 1em;
+  color: white;
+}
+
+.container {
+  /* Add styles here */
+}
+
+.target {
+  /* Add styles here */
+}
+
+.container {
+  position: relative;
+}
+
+.target {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* ex-4.8, Positioning 2 */
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 400px;
+  padding: 0.5em;
+  border: 5px solid #cccccc;
+  overflow: auto;
+}
+
+.sidebar {
+  color: white;
+  background-color: #663398;
+  padding: 1em;
+  float: left;
+  width: 150px;
+}
+
+.content {
+  padding: 1em;
+  margin-left: 160px;
+}
+
+.sidebar {
+  /* Add styles here to fix sidebar at top left corner*/
+    position: fixed;
+}
